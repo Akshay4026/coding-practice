@@ -1,0 +1,32 @@
+Java is a programming language which follows oop paradigm 
+It is a high level programming language ,
+Robust , secure , scalable .
+It is designed platform independent means compile once run anywhere
+appplication - web , desktop , enterprise apps
+
+
+
+-Data types of java:
+1. byte - 1 byte 8bits (interger values between -127 to 128)
+2. short -2 bytes (integer values between -32,768 to 32,767 )
+3. int - 4 bytes 
+4. long - 8 bytes 
+5 . float - 4 bytes (floating points numbers represented using f value ex: 2.2f)
+6 . double - 8 bytes (decimal point values)
+7 . String - 4 bytes(collection of chars)
+8 . boolean - - (true or false)
+
+- control statements:
+     Control statements in java helps to control the flow of execution of program by using conditons 
+     1.conditional statements
+     2.looping statements
+     3.branching statements
+
+1.conditioanal statements : these statemtns execute the block of code inside them if the condtion is true 
+- if , if-else , switch , else-if
+
+2.looping statements: these staremtns execute the blockk of code until the condtion inside is false
+- for , while , do-while
+
+3. Branching stateetns : these are the statements controls the flow of execution by jumping to different parts of code
+- break , continue , return 

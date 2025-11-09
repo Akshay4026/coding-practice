@@ -1,0 +1,56 @@
+OOP - object oriented programming 
+
+Simple in this paradigm every thing are considered as object rather than a particular specific thing 
+
+There is a myth that java is not a complete oop , even the core functioning and fundamentally object oriented 
+lets discuss this in the end!!!.
+
+Main concepts in oop:
+
+1.object 
+2.class
+3. 4 pillars
+4. constructor 
+5. access modifiers
+
+----------------------------------object:----------------------------------------------------------------
+
+As we discussed everything is considered as a object in the ooperations, so what does this object means
+
+To be more precise about this concept in oop any thing that we create in it are considered as a thing , 
+object (real world entity not in a physial state)
+
+These objects consists of data and behavior 
+
+In program the object is a thing that holds the data and performs ooperations on it using methods(behavior object)
+
+-----------------------------------------------------------------------------------------------------------
+
+--------------------------------CLASS :------------------------------------------------------------
+
+Class is a blueprint used to create objects(textbook definition).
+
+Lets consider this wolrd as a program !!
+
+In the package called Living things -- we belongs to a class called "Human".
+
+for that class humans beings (us) are objects - our properties are body parts.
+ -----------------------------------------------------------------------------------------------
+
+ constructor :
+ Constructor is a special method which is names same as class , it is used to initialze objects,
+ unlike other methods constructor had no return type , called automatically 
+
+ default constructor 
+ parameterized constructor 
+
+ --------------------------------------------------------------------------------------------------
+ access modifiers:
+ access modifiers plays a key role in controlling the access of particular object , class and method
+
+ default - when no AM is given
+ private - private is used to restrict the use of object outside the class (getter and setters are used to access 
+ it hence it is called controller access)
+ protected - it is used when the subclasses can able to access or perform actions on it can be used by inheritance.
+ public - accessed throughout all packages without restriction
+

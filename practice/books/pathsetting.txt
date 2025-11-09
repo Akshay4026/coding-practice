@@ -1,0 +1,18 @@
+why do we set path ?
+
+we do set path in the env variables for many application 
+we do this to make sure the applications inside the bin are accessable through terminal irrespective of the current working directoty 
+
+to make it simple , for example if we try to open notepad using cmd it is simple just we can open cmd a type notepad
+
+irrespect of the directory we are in we can open notepad 
+
+hence while we executing the java code 
+we use javac - to compile 
+we use java - to run the code 
+
+question is how do we able to use them in the cmd when they are not in our PWD
+
+This is the reason we do path setting !!!!
+
+Yes we do path setting to make sure the applications present in the bin folder of jdk folder to perform compiling and execution 

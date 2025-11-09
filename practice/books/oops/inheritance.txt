@@ -1,0 +1,23 @@
+inheritance is one of main pillar of oop
+Inheritance makes the program code reusable (it used to use the variable and methods again in another class)
+
+the variables and behavior of one class is inherited to subclass or child class from super class or parent class
+
+there are types of inheritances:
+Single inheritance -  one class to another one class
+Multi level inheritance - one class1 to class2 and class2 to class3
+Hierarchial inheritance - class1 to class2 , class3 ,class4....
+multiple inheritance(not possible in java by using simple classes for this we use interfaces)- class1 and class2 to class3 (x)
+interface1 and interface2 to interface3.
+
+
+IN inheritance when we declare a consturctor in parent class with arguments then we need to explicitely give the same consturctor 
+in the child class as well 
+
+"Superclass consturctor is always called first ".
+
+so whenver a object is created the constructor of superclass is called hence if we dont explicitly mention the construtor in the childclass 
+with the same arg as superclass constructor and use super key word in it (must be in first line )
+
+if we dont want to use this super key word explicitely we can simply use a no arg constructor in the super class along with the argumented 
+constructor.
