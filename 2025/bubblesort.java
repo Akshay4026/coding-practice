@@ -8,7 +8,7 @@ public class bubblesort {
     
     public static void main(String[] args) {
         bubblesort bs = new bubblesort();
-        int ans[] = bs.bubbleSort(new int[]{27,48,93,20,4});
+        int ans[] = bs.bubbleSort(new int[]{27,48,93,20,4,0});
         System.out.println(Arrays.toString(ans));
     }
     public int[] bubbleSort(int[]arr ){
@@ -16,7 +16,7 @@ public class bubblesort {
 
         for(int i =0;i<n;i++){
             
-            for(int j=0;i<n-1;j++){
+            for(int j=0;j<n-1;j++){
                 if(arr[j]>arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
